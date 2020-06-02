@@ -1,0 +1,2 @@
+# jni-assistant
+init
