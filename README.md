@@ -1,2 +1,3 @@
 # jni-assistant
-init
+1.确认安装jdk
+2、
