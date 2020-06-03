@@ -1,0 +1,1 @@
+javah -classpath java\src\main\java -jni -d cxx com.smile.crystal.JNITest
