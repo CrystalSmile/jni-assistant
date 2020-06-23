@@ -32,3 +32,6 @@
 *.app
 .vs
 Debug
+
+.idea
+DllTEST
