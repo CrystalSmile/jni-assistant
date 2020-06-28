@@ -23,6 +23,22 @@ JNIEXPORT void JNICALL Java_com_smile_crystal_JNITest_testPrint
 JNIEXPORT jint JNICALL Java_com_smile_crystal_JNITest_testAdd
   (JNIEnv *, jobject, jint, jint);
 
+/*
+ * Class:     com_smile_crystal_JNITest
+ * Method:    testObject1
+ * Signature: (Lcom/smile/crystal/TestStruct;Ljava/lang/String;Ljava/util/List;)V
+ */
+JNIEXPORT void JNICALL Java_com_smile_crystal_JNITest_testObject1
+  (JNIEnv *, jobject, jobject, jstring, jobject);
+
+/*
+ * Class:     com_smile_crystal_JNITest
+ * Method:    testReturn
+ * Signature: ()Lcom/smile/crystal/TestStruct;
+ */
+JNIEXPORT jobject JNICALL Java_com_smile_crystal_JNITest_testReturn
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
