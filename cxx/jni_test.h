@@ -33,6 +33,14 @@ JNIEXPORT void JNICALL Java_com_smile_crystal_JNITest_testObject1
 
 /*
  * Class:     com_smile_crystal_JNITest
+ * Method:    testObject2
+ * Signature: (Ljava/util/List;)V
+ */
+JNIEXPORT void JNICALL Java_com_smile_crystal_JNITest_testObject2
+  (JNIEnv *, jobject, jobject);
+
+/*
+ * Class:     com_smile_crystal_JNITest
  * Method:    testReturn
  * Signature: ()Lcom/smile/crystal/TestStruct;
  */
