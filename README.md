@@ -6,6 +6,7 @@ Windows下
 
 2、windows下执行genc.bat。 
 	其中：javah -classpath java\src\main\java -jni -o cxx/jni_test.h com.smile.crystal.JNITest  
+	
 	-classpath 从中加载类的路径  
 	-o 输出文件  和-d只能存在一个
 	-d 输出目录  
