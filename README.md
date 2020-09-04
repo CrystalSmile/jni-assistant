@@ -16,6 +16,7 @@ Windows下
 4、项目头文件添加，jni_test.h
 
 5、项目右键 -->> 属性 -->> 选择x86或者x64解决方案平台 -->> VC++目录 -->> 包含目录  
+	
 	依次添加：D:\Java\jdk1.8.0_231\include\win32  
 		 D:\Java\jdk1.8.0_231\include  
 
